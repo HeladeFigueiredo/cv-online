@@ -1,0 +1,58 @@
+@import url(./main.css);
+
+.nossos_eventos {
+    display: flex;
+    margin-bottom: 60px;
+    margin-top: 50px;
+
+    background-color: rgba(120, 118, 118, 0.1);
+    border-radius: 7px;
+    padding: 25px;
+}
+
+.nossos_eventos img {
+    height: 285px;
+    border-radius: 7px;
+}
+
+.nossos_eventos div {
+    margin-left: 55px;
+    margin-right: 30px;
+    align-self: center;
+}
+
+.nossos_eventos h3 {
+    font-size: 30px;
+    margin-bottom: 23px;
+    font-weight: normal;
+}
+
+.nossos_eventos p {
+    margin-top: 13px;
+    margin-right: 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.nossos_eventos button {
+    margin-top: 25px;
+    padding: 5px 15px 5px 15px;
+    font-size: 17px;
+    border-radius: 7px;
+    border: 2px solid rgb(0, 0, 0, 0.6);
+    background-color: whitesmoke;
+}
+
+.nossos_eventos button:hover {
+    background-color: rgba(120, 118, 118,0.4);
+    cursor: pointer;
+}
+
+.nossos_eventos button:active {
+    background-color: white;;
+}
+
+.nossos_eventos button a {
+    text-decoration: none;
+    color: black;
+}

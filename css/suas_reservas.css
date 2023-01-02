@@ -1,0 +1,100 @@
+@import url(./main.css);
+
+
+/* INPUT PADRÃO*/
+.reservas {
+    margin-top: 60px;
+    margin-bottom: 310px;
+}
+
+.reservas form {
+    width: 45%;
+    background-color: rgba(120, 118, 118, 0.2);
+    padding: 33px 50px 0 50px;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+.reservas h3 {
+    font-size: 26px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.reservas .padrao {
+    margin-bottom: 23px;
+    text-align: left;
+    display: flex;
+    margin-top: 35px;
+}
+
+.reservas .padrao .label_padrao {
+    text-align: right;
+    margin: 0;
+    font-size:20px;
+}
+
+.reservas .padrao .input_padrao {
+    text-align: left;
+    margin: 0;
+    position: relative;
+}
+
+.reservas .padrao input {
+    width: 379px;
+    height: 25px;
+    margin-left: 10px;
+
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.label_numero_reserva {
+    font-size: 20px;
+    position: relative;
+}
+
+.input_numero_da_reserva input {
+    width: 270px !important;
+    position: relative;
+    right: 2px;
+
+}
+
+/* ORGANIZAR DISTANCIA INPUTS */
+
+.nome {
+    left: 25px;
+}
+
+.email {
+    left: 26px;
+}
+
+.telefone {
+    left: 5px;
+}
+
+
+/* BOTAO */
+
+.botao_reservas button {
+    margin: 20px 0 25px 100px;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: 1px solid rgb(0, 0, 0, 0.9);
+    background-color: whitesmoke;
+    
+}
+
+.botao_reservas button:hover {
+    background-color: rgba(120, 118, 118,0.4);
+    cursor: pointer;
+}
+
+.botao_reservas button:active {
+    background-color: white;;
+}
