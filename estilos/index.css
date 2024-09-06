@@ -1,0 +1,136 @@
+@import url(./main.css);
+
+/* QUEM SOMOS */
+
+.quem_somos {
+    display: flex;
+    margin-top: 50px;
+}
+
+.quem_somos img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+.quem_somos div {
+    align-self: center;
+}
+
+.quem_somos p {
+    margin-left: 30px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+/* CARD */
+.card {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card div {
+    display: flex;
+}
+
+.card div a img {
+    width: 92%;
+    border-radius: 10px;
+}
+
+.card div img:hover {
+    cursor: pointer;
+}
+
+/* LINHA DO TEMPO */
+
+.timeline {
+    position: relative;
+    margin: -13px auto 40px auto;
+}
+
+/* LINHA CENTRAL */
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 2.5px;
+    background-color: rgb(0, 0, 0, .7);
+    top: 108px;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+.container {
+    padding: 0px 28px 10px 0px;
+    position: relative;
+    width: 48%;
+    margin-top: 70px;
+}
+
+
+/* BOLINHAS DO CENTRO */
+.container::after {
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 2.5px;
+    right: -43px;
+    background-color: rgb(0, 0, 0, .7);
+    top: 148px;
+    z-index: 1;
+}
+
+
+.left {
+    left: -8px;
+}
+
+.right {
+    left: 55%;
+}
+
+.right::after {
+    left: -74px;
+}
+
+
+/* CARD */
+.content {
+    padding: 37px 18px;
+    position: relative;
+    border-radius: 6px;
+    background-color: rgba(120, 118, 118, 0.2);
+}
+
+.content div {
+    display: flex;
+    justify-content: center;
+}
+
+.content h3 {
+    font-size: 26px;
+    text-align: center;
+}
+
+.content img {
+    width: 450px;
+    border-radius: 7px;
+    margin-bottom: 22px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-top: 7px;
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: justify;
+}
+
+.descricao{
+    display: block !important;
+}
+
+
+
